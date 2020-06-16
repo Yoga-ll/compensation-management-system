@@ -33,8 +33,8 @@
 
     <div class="center-menu">
       <el-tabs v-model="activeName" @tab-click="handleClick">
-        <el-tab-pane label="用户管理" name="first">薪酬管理</el-tab-pane>
-        <el-tab-pane label="配置管理" name="second">系统管理</el-tab-pane>
+        <el-tab-pane label="业务管理" name="first"></el-tab-pane>
+        <el-tab-pane label="系统管理" name="second"></el-tab-pane>
       </el-tabs>
     </div>
   </div>
